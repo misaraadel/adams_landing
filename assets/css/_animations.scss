@@ -315,6 +315,17 @@
     }
   }
   
+  @keyframes translateXMore {
+  
+    0%{
+      background-position-x: 0px;
+    }
+  
+    100% {
+      background-position-x: -100%;
+    }
+  }
+  
   @keyframes translateY {
     0%,
     100% {

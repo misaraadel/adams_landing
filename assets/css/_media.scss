@@ -21,12 +21,13 @@
 
   .navbar {
     .hamburger {
-      display: block !important;
+      display: flex !important;
     }
 
     &.scrolled {
       .navbar-nav {
         top: 70px !important;
+        height: calc(100vh - 70px);
       }
     }
 
@@ -83,6 +84,24 @@
   }
 
   .heading {
-    margin-bottom: 40px !important;
+    margin-bottom: 20px !important;
   }
+
+  .why {
+    padding: 30px 0px;
+  }
+
+  .why .image-box, 
+  .screens .item img,
+  .ideas .image-box {
+    height: 300px;
+  }
+
+  .owl-stage {
+    padding-bottom: 0px !important;
+  }
+
+  .modal-dialog {
+    max-width: 100% !important;
+  } 
 }
